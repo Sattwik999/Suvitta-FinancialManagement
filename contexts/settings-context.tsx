@@ -37,9 +37,9 @@ export interface UserSettings {
 
 const defaultSettings: UserSettings = {
   avatar: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/38184074.jpg-M4vCjTSSWVw5RwWvvmrxXBcNVU8MBU.jpeg",
-  fullName: "Rajesh Sharma",
-  email: "rajesh.sharma@example.com",
-  phone: "+91 98765 43210",
+  fullName: "Sattwik Sarkar",
+  email: "sattwiksarkar999@gmail.com",
+  phone: "+91 9800295650",
   timezone: "Asia/Kolkata",
   language: "en",
   currency: "inr",
