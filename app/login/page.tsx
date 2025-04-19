@@ -31,7 +31,7 @@ export default function LoginPage() {
     setTimeout(() => {
       setIsLoading(false)
       // Redirect to dashboard
-      router.push("/page.tsx")
+      router.push("/")
     }, 1500)
   }
 
@@ -43,7 +43,7 @@ export default function LoginPage() {
     setTimeout(() => {
       setIsLoading(false)
       // Redirect to dashboard
-      router.push("/page.tsx")
+      router.push("/")
     }, 1500)
   }
 
@@ -52,10 +52,10 @@ export default function LoginPage() {
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <div className="flex items-center justify-center mb-4">
-            <img src="/placeholder.svg?height=64&width=64" alt="FinanceApp Logo" className="h-16 w-16" />
+            <img src="/img/logo2.png" alt="FinanceApp Logo" className="h-16 w-16" />
           </div>
-          <h1 className="text-3xl font-bold text-primary">FinanceApp</h1>
-          <p className="text-muted-foreground">Manage your finances with ease</p>
+          <h1 className="text-3xl font-bold text-primary">SUVITTA PAY</h1>
+          <p className="text-muted-foreground">Your Everyday Finance Companion</p>
         </div>
 
         <Tabs defaultValue="login" className="w-full">
