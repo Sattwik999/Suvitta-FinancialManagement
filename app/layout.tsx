@@ -55,7 +55,7 @@ import ClientLayout from "./ClientLayout"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "SUVRITT",
+  title: "SUVITTA PAY",
   description: "Your Personal Financial Dashboard",
   generator: "v0.dev",
 }

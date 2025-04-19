@@ -28,7 +28,7 @@ export function TopNav() {
   }
 
   return (
-    <header className="sticky top-0 z-40  bg-blue/30 text-white shadow-md">
+    <header className="top-0 z-40  bg-blue/30 text-white shadow-md">
       <div className="container flex h-16 items-center justify-between px-4 md:px-6">
         
         <div className="hidden md:block">
@@ -48,8 +48,8 @@ export function TopNav() {
         </div>
         <div className="flex items-center justify-center absolute left-0 right-0 mx-auto">
           <div className="flex items-center gap-2">
-            <img src="/img/logo2.png" alt="FinanceApp Logo" className="h-8 w-8" />
-            <span className="text-xl font-bold text-primary text-white">SUVRITT-Your Financial Companion</span>
+            <img src="/img/logo2.png" alt="FinanceApp Logo" className="h-12 w-12" />
+            <span className="text-xl font-bold text-primary text-white">SUVITTA PAY-Your Everyday Financial Companion</span>
           </div>
         </div>
         <div className="flex items-center gap-4">

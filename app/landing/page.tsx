@@ -102,8 +102,8 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center py-6">
                 <div className="flex items-center">
-                    <img src="/img/logo2.png" alt="SUVRITT Logo" className="h-10 w-10 mr-2"/>
-                    <span className="text-2xl font-bold text-white">SUVRITT</span>
+                    <img src="/img/logo2.png" alt="SUVITTA Logo" className="h-14 w-14 mr-2"/>
+                    <span className="text-2xl font-bold text-white">SUVITTA PAY</span>
                 </div>
                 <div className="hidden md:block">
                     <div className="ml-10 flex items-baseline space-x-4">
@@ -146,7 +146,7 @@ export default function LandingPage() {
                     <span className="block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">All Your finances</span>
                 </h1>
                 <p className="text-xl text-gray-300 mb-8">
-                    SUVRITT helps you track, manage, and optimize your finances with powerful tools and beautiful visualizations.
+                    SUVITTA helps you track, manage, and optimize your finances with powerful tools and beautiful visualizations.
                 </p>
                 <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
                     <a href="login.html" className="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 md:py-4 md:text-lg md:px-10 transform transition hover:scale-105">
@@ -404,7 +404,7 @@ export default function LandingPage() {
                 <div>
                     <div className="flex items-center mb-4">
                         <img src="/img/logo2.png" alt="FinTrack Logo" className="h-8 w-8 mr-2"/>
-                        <span className="text-xl font-bold">SUVRITT</span>
+                        <span className="text-xl font-bold">SUVITTA</span>
                     </div>
                     <p className="text-gray-400 mb-4">Your All-In-One financial management solution.</p>
                     <div className="flex space-x-4">

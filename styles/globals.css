@@ -2,22 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body {
-  font-family: Arial, Helvetica, sans-serif;
-} */
+/* Background Image Setup */
 body {
-  background-image: url('public/img/back.jpg');
-  background-size: cover; /* Adjusts the image to cover the entire screen */
-  background-position: center center; /* Centers the image */
-  background-attachment: fixed; /* Keeps the image fixed when scrolling */
-  background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+  background-image: url('/img/back.jpg'); /* Use /img instead of public/img for correct path */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
+
+/* Utilities Layer */
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
 }
 
+/* Base Theme Variables */
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -54,6 +55,7 @@ body {
     --sidebar-border: 220 13% 91%;
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
+
   .dark {
     --background: 0 0% 3.9%;
     --foreground: 0 0% 98%;
@@ -88,28 +90,22 @@ body {
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
-}
 
-@layer base {
+  /* Base element reset + color application */
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
-}
 
-html {
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
+  html {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
 
-body {
-  background-color: white;
-  color: black;
-}
-
-/* Dark mode styles */
-html.dark {
-  background-color: #121212;
-  color: white;
+  html.dark {
+    background-color: #121212;
+    color: white;
+  }
 }
