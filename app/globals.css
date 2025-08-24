@@ -3,10 +3,10 @@
 @tailwind utilities;
 body {
   background-image: url('/img/back.jpg');
-  background-size: cover; /* Adjusts the image to cover the entire screen */
-  background-position: center center; /* Centers the image */
-  background-attachment: fixed; /* Keeps the image fixed when scrolling */
-  background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+  background-size: cover; 
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 @layer base {
   :root {
