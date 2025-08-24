@@ -156,7 +156,7 @@ export default function LandingPage() {
             </div>
             <div className="md:w-1/2 relative">
                 <div className="dashboard-preview rounded-xl shadow-2xl overflow-hidden transform rotate-2 hover:rotate-0 transition-transform duration-500">
-                    <img src="/img/dash.png" alt="FinTrack Dashboard" className="w-full"/>
+                    <img src="/img/dash2.png" alt="FinTrack Dashboard" className="w-full"/>
                 </div>
                 <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full filter blur-xl opacity-70 animate-pulse"></div>
                 <div className="absolute -top-10 -right-10 w-40 h-40 bg-gradient-to-r from-yellow-500 to-green-500 rounded-full filter blur-xl opacity-70 animate-pulse delay-700"></div>
