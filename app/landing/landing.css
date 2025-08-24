@@ -1,3 +1,30 @@
+/* Glassmorphism effect for developer card */
+.glassmorphism-card {
+    background: rgba(255, 255, 255, 0.10);
+    border-radius: 1.5rem;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    border: 1.5px solid rgba(255, 255, 255, 0.18);
+    position: relative;
+    padding: 2rem;
+    margin: 2rem auto;
+    overflow: hidden;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.glassmorphism-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(102,126,234,0.25) 0%, rgba(118,75,162,0.25) 100%);
+    border-radius: 1.5rem;
+    z-index: 0;
+}
 /* Particle animation */
 .particles-container {
     position: fixed;

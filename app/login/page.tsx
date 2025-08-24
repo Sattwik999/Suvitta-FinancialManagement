@@ -174,7 +174,7 @@ export default function LoginPage() {
         </Tabs>
 
         <div className="mt-4 text-center">
-          <Link href="/" className="text-sm text-primary hover:underline">
+          <Link href="/landing/page.tsx" className="text-sm text-primary hover:underline">
             Back to landing page
           </Link>
         </div>

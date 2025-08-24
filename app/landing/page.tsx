@@ -223,8 +223,9 @@ export default function LandingPage() {
                 <h2 className="text-3xl sm:text-4xl font-extrabold text-white mb-4">Meet the Developer</h2>
                 <p className="text-xl text-gray-300 max-w-3xl mx-auto">Passionate about crafting seamless and efficient financial solutions.</p>
             </div>
-    
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+            <div className="grid grid-cols-1 md:grid-cols-1 gap-8 flex justify-center">
+                {/*
                 <div className="bg-gray-800 rounded-xl p-8 border border-gray-700 transform transition hover:scale-105 text-center">
                     <div className="flex justify-center mb-6">
                         <img src="/img/ani.jpg" alt="Anisha Saha" className="w-32 h-32 rounded-full border-4 border-indigo-500 shadow-lg"/>
@@ -236,17 +237,27 @@ export default function LandingPage() {
                     </ul>
                     <a href="#" className="block w-full bg-white hover:bg-gray-100 text-indigo-600 font-bold py-3 px-4 rounded-md text-center">Connect</a>
                 </div>
+                */}
     
-                <div className="bg-gradient-to-br from-indigo-900 to-purple-900 rounded-xl p-8 border border-indigo-700 transform transition hover:scale-105 text-center shadow-xl">
-                    <div className="flex justify-center mb-6">
-                        <img src="/img/sa.jpg" alt="Sattwik Sarkar" className="w-32 h-32 rounded-full border-4 border-purple-500 shadow-lg"/>
-                    </div>
-                    <h3 className="text-xl font-bold text-white mb-4">Sattwik Sarkar</h3>
-                    <ul className="space-y-3 mb-6 text-gray-200">
-                        <li><i className="fas fa-check text-green-400 mr-2"></i> 23BCE1297</li>
-                    </ul>
-                    <a href="#" className="block w-full bg-gradient-to-r from-purple-500 to-indigo-600 hover:from-purple-600 hover:to-indigo-700 text-white font-bold py-3 px-4 rounded-md text-center">Connect</a>
-                </div>
+                               <center> <div className="w-full flex justify-center items-center h-screen">
+                                    <div className="glassmorphism-card relative max-w-md w-full flex flex-col items-center">
+                                        <div className="flex justify-center mb-6 z-10">
+                                            <img src="/img/sa.jpg" alt="Sattwik Sarkar" className="w-32 h-32 rounded-full border-4 border-purple-500 shadow-lg"/>
+                                        </div>
+                                        <h3 className="text-xl font-bold text-white mb-2 z-10">Sattwik Sarkar</h3>
+                                        <p className="text-indigo-300 font-semibold mb-2 z-10">Full Stack Developer</p>
+                                        <ul className="space-y-3 mb-6 text-gray-200 z-10">
+                                            <li><i className="fas fa-check text-green-400 mr-2"></i> Student at VIT Chennai</li>
+                                            <li><i className="fas fa-envelope text-pink-400 mr-2"></i> <span className="italic">sattwiksarkar999@gmail.com</span></li>
+                                        </ul>
+                                        <div className="flex flex-col sm:flex-row w-full gap-3 z-10 mt-2">
+                                            <a href="https://www.linkedin.com/in/sattwik-sarkar999" target="_blank" rel="noopener noreferrer" className="flex-1 rounded-full bg-gradient-to-r from-blue-700 to-blue-400 hover:from-blue-800 hover:to-blue-500 text-white font-bold py-3 px-4 text-center shadow-lg transition-all duration-300 transform hover:scale-105">LinkedIn</a>
+                                            <a href="https://github.com/Sattwik999" target="_blank" rel="noopener noreferrer" className="flex-1 rounded-full bg-gradient-to-r from-gray-800 to-gray-600 hover:from-gray-900 hover:to-gray-700 text-white font-bold py-3 px-4 text-center shadow-lg transition-all duration-300 transform hover:scale-105">GitHub</a>
+                                            <a href="https://sattwiksarkar.me" target="_blank" rel="noopener noreferrer" className="flex-1 rounded-full bg-gradient-to-r from-purple-500 to-indigo-600 hover:from-purple-600 hover:to-indigo-700 text-white font-bold py-3 px-4 text-center shadow-lg transition-all duration-300 transform hover:scale-105">Portfolio</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                </center>
             </div>
         </div>
     </section>
