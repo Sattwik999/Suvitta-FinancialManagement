@@ -1,117 +1,74 @@
-# Suvitta-FinancialManagement
+# 💰 Suvitta-FinancialManagement
 
-**Suvitta-FinancialManagement** is a modern, responsive web application built with **TypeScript**, **Next.js**, and **Tailwind CSS**. It helps users manage their personal finances—track income, expenses, budgets, and visualize financial data.
-
----
-
-##  Demo
-
-- Live demo available at: [https://suvritt.netlify.app/landing](https://suvittafinance.netlify.app/landing)  
----
-
-##  Tech Stack
-
-- **Framework**: Next.js (React-based)
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
+A modern **personal finance management** web app built with **Next.js**, **TypeScript**, and **Tailwind CSS**.  
+Track income, expenses, budgets, and visualize your finances with an elegant, responsive UI.
 
 ---
 
-##  Features
-
-- User authentication and profile management *(in developement)*
-- Track income and expense entries
-- View categorized spending summaries
-- Set and monitor budgets
-- Interactive charts and financial visualizations
-- Light / dark theme toggle
-- Responsive UI for desktop and mobile
+## 🚀 Demo
+🔗 [Live Preview](https://suvittafinance.netlify.app/landing)
 
 ---
 
-##  Installation
+## 🛠 Tech Stack
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white)
+![Netlify](https://img.shields.io/badge/Deployed%20on-Netlify-00C7B7?logo=netlify&logoColor=white)
 
-1. **Clone the repo**  
-   ```bash
-   git clone https://github.com/Sattwik999/Suvitta-FinancialManagement.git
-   cd Suvitta-FinancialManagement
-Install dependencies
-Using npm:
+---
 
-bash
-Copy
-Edit
-npm install
-Or using pnpm:
+## ✨ Features
+- 📊 Track income & expenses  
+- 🗂 Categorized spending & budgets  
+- 📈 Interactive charts & analytics  
+- 🌙 Light/Dark theme toggle  
+- 📱 Fully responsive design  
 
-bash
-Copy
-Edit
-pnpm install
-Run the development server
+---
 
-bash
-Copy
-Edit
+## 📸 Screenshots
+
+### 🔐 Login / Signup  
+![Login Screenshot](docs/screenshots/login.png)
+
+### 📊 Dashboard Overview  
+![Dashboard Screenshot](docs/screenshots/dashboard.png)
+
+### 📈 Analytics View  
+![Analytics Screenshot](docs/screenshots/analytics.png)
+
+---
+
+## 🎥 Demo GIF  
+> Add a short recording of your app in action for quick preview:
+
+![App Demo](docs/demo/demo.gif)
+
+---
+
+## ⚡ Quick Start
+
+```bash
+# Clone repo
+git clone https://github.com/Sattwik999/Suvitta-FinancialManagement.git
+cd Suvitta-FinancialManagement
+
+# Install dependencies
+npm install   # or pnpm install
+
+# Start development server
 npm run dev
-Open http://localhost:3000 to view locally.
 
-Build for production
+📜 Scripts
+Command	Action
+npm run dev	Start dev server
+npm run build	Production build
+npm start	Run production build
+npm run lint	Run linting checks
 
-bash
-Copy
-Edit
-npm run build
-npm start
-Configuration
-If the project uses environment variables (e.g., API keys, auth secrets), include a .env.local:
+👤 Author
 
-bash
-Copy
-Edit
-NEXT_PUBLIC_API_URL=https://api.yourservice.com
-NEXTAUTH_URL=http://localhost:3000
-# ...other keys
-Update this section based on your actual configuration needs.
-
-Scripts
-Script	Description
-dev	Starts the development server
-build	Generates production build files
-start	Launches the production server
-lint	Runs code linting (if configured)
-format	Formats code with Prettier (if configured)
-
-Contributing
-Contributions are very welcome! Please follow these steps:
-
-Fork the repository
-
-Create a feature branch: git checkout -b feature/my-feature
-
-Commit your changes: git commit -m "Add awesome feature"
-
-Push to branch: git push origin feature/my-feature
-
-Open a Pull Request describing your work
-
-License
-This project is licensed under the MIT License. See LICENSE for full details. 
-GitHub
-+1
-
-Contact
-Author: Sattwik Sarkar
-
-Email: sattwiksarkar999@gmail.com
-
-Portfolio / Social: www.linkedin.com/in/sattwik-sarkar999
-
-Feel free to reach out if you’d like to collaborate or have questions!
-
-Acknowledgments
-Built using Next.js and Tailwind CSS
-
-Inspired by modern financial tools and dashboards
-
-Thanks to contributors and the open-source community
+Sattwik Sarkar
+📧 sattwiksarkar999@gmail.com
+🌐 sattwiksarkar.me
